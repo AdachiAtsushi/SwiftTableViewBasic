@@ -13,6 +13,7 @@
 		4272FBA4249CD4BF00C92B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4272FBA2249CD4BF00C92B58 /* Main.storyboard */; };
 		4272FBA6249CD4C200C92B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4272FBA5249CD4C200C92B58 /* Assets.xcassets */; };
 		4272FBA9249CD4C200C92B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4272FBA7249CD4C200C92B58 /* LaunchScreen.storyboard */; };
+		4272FBB1249CD6A900C92B58 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272FBB0249CD6A900C92B58 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4272FBA5249CD4C200C92B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4272FBA8249CD4C200C92B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4272FBAA249CD4C200C92B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4272FBB0249CD6A900C92B58 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4272FB9C249CD4BF00C92B58 /* AppDelegate.swift */,
 				4272FB9E249CD4BF00C92B58 /* SceneDelegate.swift */,
+				4272FBB0249CD6A900C92B58 /* NextViewController.swift */,
 				4272FBA0249CD4BF00C92B58 /* ViewController.swift */,
 				4272FBA2249CD4BF00C92B58 /* Main.storyboard */,
 				4272FBA5249CD4C200C92B58 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4272FBA1249CD4BF00C92B58 /* ViewController.swift in Sources */,
+				4272FBB1249CD6A900C92B58 /* NextViewController.swift in Sources */,
 				4272FB9D249CD4BF00C92B58 /* AppDelegate.swift in Sources */,
 				4272FB9F249CD4BF00C92B58 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adachi.SwiftTableViewBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adachi.SwiftTableViewBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
